@@ -107,7 +107,7 @@
                 </div>
                 <div class="row">
                   <div class="buttons padd-15">
-                    <a href="#" class="btn"> Download CV</a>
+                    <a href="documents/S.A Myeni Resume.pdf" download class="btn" id="download-cv"> Download CV</a>
                     <a href="#contact" class="btn hire-me"> Hire Me</a>
                   </div>
                 </div>
@@ -465,6 +465,15 @@
     <!-- ==== Main Container End ==== -->
 
     <!-- ==== JS Files ==== -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        var downloadCvButton = document.getElementById('download-cv');
+        downloadCvButton.addEventListener('click', function(event){
+          console.log('CV Downloaded');
+          alert('Your download will start shortly.');
+        });
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
   </body>
