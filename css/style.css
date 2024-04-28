@@ -374,7 +374,8 @@ h3.my-profession
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
 }
-.about .about-content .personal-info .info-item p span
+.about .about-content .personal-info .info-item p span,
+.about .about-content .personal-info .info-item p a
 {
   font-weight: 400;
   color: var(--text-black-700);
@@ -648,7 +649,8 @@ h3.my-profession
 {
   display: inline-block;
 }
-.contact .contact-info-item .icon .fa
+.contact .contact-info-item .icon .fa,
+.contact .contact-info-item .icon .fab
 {
   font-size: 25px;
   color: var(--skin-color);
@@ -661,7 +663,8 @@ h3.my-profession
   text-transform: capitalize;
   margin: 15px 0 5px;
 }
-.contact .contact-info-item p
+.contact .contact-info-item p,
+.contact .contact-info-item a
 {
   font-size: 16px;
   line-height: 25px;
